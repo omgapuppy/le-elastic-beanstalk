@@ -13,6 +13,14 @@ path = /path/to/log/file
 token = MY_TOKEN
 ```
 
+Or **alternatively**, the `destination` parameter can be used so that the log is created automatically in your account:
+
+```
+[Application name]
+path = /path/to/log/file
+destination = LogSet/Log
+```
+
 Repeat the above section for every file on your EB instances, that you wish to follow.
 
 Please see the [Logentries Agent documentation](https://github.com/logentries/le#follow-log-files-through-your-configuration-file) for more details on how to use the Agent configuration file.
